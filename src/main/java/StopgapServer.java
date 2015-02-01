@@ -1,4 +1,3 @@
-package com.kivatek;
 
 import static spark.Spark.get;
 

@@ -20,7 +20,7 @@ group = 'com.kivatek'
 version = '0.0'
 
 applicationName = 'StopgapServer'
-mainClassName = 'com.kivatek.StopgapServer'
+mainClassName = 'StopgapServer'
 
 repositories {
     mavenCentral()
