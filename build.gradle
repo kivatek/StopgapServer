@@ -32,7 +32,6 @@ tasks.withType(GroovyCompile)*.groovyOptions*.encoding = defaultEncoding
 
 dependencies {
     compile 'com.sparkjava:spark-core:2.1'
-    compile 'org.apache.commons:commons-lang3:3.3.2'
 }
 
 task wrapper(type: Wrapper) {
