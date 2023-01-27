@@ -10,4 +10,7 @@
 
 # Gradle files
 .gradle/
+
+# Editor
 .idea/
+.vscode/
