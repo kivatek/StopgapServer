@@ -17,6 +17,7 @@ dependencies {
     shadow gradleApi()
 
     implementation 'com.sparkjava:spark-core:2.9.4'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.6'
 }
 
 jar {
@@ -27,7 +28,7 @@ jar {
 
 shadowJar {
     classifier = ''
-    version = ''
+    archiveVersion = ''
     minimize()
 }
 
